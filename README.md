@@ -23,6 +23,17 @@ The high recall indicates the model is effective at correctly identifying actual
 ## Web Application
 A Flask-based web app (`app.py`) allows users to upload an endoscopic image and receive an instant prediction along with the model's confidence score.
 
+## Demo
+
+**Image Upload Interface:**
+![Upload Page](Screenshot%20uploadpage.png)
+
+**Ulcerative Colitis Detected:**
+![UC Prediction](screenshot%20uc.png)
+
+**Normal Case:**
+![Normal Prediction](Screenshot%20normal.png)
+
 ## Tech Stack
 - Python
 - PyTorch (CNN model)
